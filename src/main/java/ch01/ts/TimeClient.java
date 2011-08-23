@@ -11,7 +11,7 @@ public class TimeClient
 	public static void main(String args[]) throws MalformedURLException
 	{
 		URL url=new URL("http://127.0.0.1:9876/ts?wsdl");
-		QName qname=new QName("http://ch01.ts/", "TimeServerImplService");
+		QName qname=new QName("http://ts.ch01/", "TimeServerImplService");
 		Service service = Service.create(url, qname);
 		TimeServer eif=service.getPort(TimeServer.class);
 		System.out.println("time elapsed"+eif.getTimeAsElapsed());
