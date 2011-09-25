@@ -15,6 +15,6 @@ public class TimeClient
 		Service service = Service.create(url, qname);
 		TimeServer eif=service.getPort(TimeServer.class);
 		System.out.println("time elapsed"+eif.getTimeAsElapsed());
-		System.out.println("time string"+eif.getTimeAsString());
+		System.out.println(" cnahgning in master time string"+eif.getTimeAsString());
 	}
 }
