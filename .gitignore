@@ -33,6 +33,10 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+# not ignoring gitignore #
+######################
+!.gitignore
+
 bin
 target
 .project
