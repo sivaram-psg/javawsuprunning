@@ -14,7 +14,7 @@ import javax.jws.soap.SOAPBinding;
  * 
  */
 @WebService(name = "TimeServer", targetNamespace = "http://ts.ch02/")
-@SOAPBinding(style = SOAPBinding.Style.RPC)
+//@SOAPBinding(style = SOAPBinding.Style.RPC)
 public interface TimeServer {
 
 
