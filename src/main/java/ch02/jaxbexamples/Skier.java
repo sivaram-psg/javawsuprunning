@@ -2,6 +2,9 @@ package ch02.jaxbexamples;
 
 import java.util.Collection;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="nordicskier")
 public class Skier
 {
 	private Person person;
